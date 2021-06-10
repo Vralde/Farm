@@ -1,19 +1,38 @@
 class Kat extends Dyr{
   
   PImage Billede;
+ 
+  float y = mouseY; 
+  float x = mouseX; 
   
-  int x, y;
-  
-  
-  Kat(){
-    
+  Kat(int x_, int y_){
+    x=x_;
+    y=y_;
   }
   
   
   void display(){
     Billede = loadImage("catcoon.png");
     image(Billede, x, y);
-    x += 10;
-    y += 10;
+    x += speedX;
+    y += speedY;
+    
+    if(x + 120 > width){
+     speedX = -speedX; 
+    }
+
+    if(x < 0){
+     speedX = -speedX; 
+    }
+
+    if(y + 120 > height){
+     speedY = -speedY; 
+    }
+    
+    if(y < 0){
+     speedY = -speedY; 
+    }    
+    
+    
   }
 }

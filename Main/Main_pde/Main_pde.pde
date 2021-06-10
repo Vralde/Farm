@@ -3,8 +3,8 @@ Verden v = new Verden();
 
 
 void setup(){
-  size(500,500);
-  background(255);
+  size(1200,700);
+
 
   
 
@@ -16,6 +16,7 @@ void setup(){
 
 void draw(){
   clear();
+  background(255);
   v.tegnAlleDyr();
   
   

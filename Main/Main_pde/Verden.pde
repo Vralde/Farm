@@ -1,4 +1,5 @@
 class Verden{
+    //int x, y;
   
   ArrayList<Dyr> listDyr = new ArrayList<Dyr>();   
   
@@ -15,7 +16,7 @@ class Verden{
   }
 
   void lavKat(){
-   Kat k = new Kat(); 
+   Kat k = new Kat(mouseX,mouseY); 
    listDyr.add(k);
   }
   
