@@ -1,5 +1,14 @@
 class Dyr extends Verden{
-
- Dyr(){
- }
+  
+  
+  
+  Dyr(){
+   
+  }
+ 
+ 
+  void display(){
+   
+  }
+ 
 }
