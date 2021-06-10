@@ -19,6 +19,10 @@ class Verden{
    Kat k = new Kat(mouseX,mouseY); 
    listDyr.add(k);
   }
+  void lavBird(){
+   Bird b = new Bird(mouseX,mouseY); 
+   listDyr.add(b);
+  }
   
   void tegnAlleDyr(){
    for(Dyr d : listDyr){

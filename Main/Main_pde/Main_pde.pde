@@ -30,5 +30,9 @@ void keyPressed(){
  if(key == 'k'){
   v.lavKat();   
  }
-  
+ if(key == 'b'){
+  v.lavBird();   
+ }
 }
+ 
+ 
