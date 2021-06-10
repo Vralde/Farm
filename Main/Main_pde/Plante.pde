@@ -1,5 +1,6 @@
 class Plante{
 
  Plante(){
+   
  }
 }
