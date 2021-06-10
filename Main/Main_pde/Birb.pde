@@ -14,8 +14,8 @@ class Bird extends Dyr{
   void display(){
     Billede = loadImage("bird.png");
     image(Billede, x, y);
-    x += speedX;
-    y += speedY;
+    x -= speedX;
+    y -= speedY;
     
     if(x + 120 > width){
      speedX = -speedX; 

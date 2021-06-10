@@ -18,7 +18,7 @@ void draw(){
   clear();
   background(255);
   v.tegnAlleDyr();
-  
+  v.tegnAllePlanter();
   
   
   
@@ -32,6 +32,9 @@ void keyPressed(){
  }
  if(key == 'b'){
   v.lavBird();   
+ }
+  if(key == 'f'){
+  v.lavFruit();   
  }
 }
  
