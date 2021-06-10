@@ -1,4 +1,4 @@
-class Terren{
+class Terren extends Verden{
 
  Terren(){
  }

@@ -1,4 +1,4 @@
-class Plante{
+class Plante extends Verden{
 
  Plante(){
    

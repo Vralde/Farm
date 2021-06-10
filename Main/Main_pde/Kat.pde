@@ -1,0 +1,4 @@
+class Kat extends Dyr{
+
+  
+}
