@@ -2,6 +2,9 @@ class Fruit extends Plante{
   
   PImage billede;
   
+  int growX = 10;
+  int growY = 20;
+  
   float y = mouseY; 
   float x = mouseX; 
   
@@ -13,8 +16,10 @@ class Fruit extends Plante{
 
   void display(){
     billede = loadImage("fruit.png");
-    image(billede, x, y);  
-    
+    billede.resize(growX, growY);
+    growX += 1;
+    growY += 1;
+    image(billede, x, y);
   }
   
 }
