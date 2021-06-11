@@ -9,11 +9,11 @@ class Fruit extends Plante{
   float x = mouseX; 
   
   Fruit(int x_,int y_){
-  x = x_;
-  y = y_;
+    x = x_;
+    y = y_;
   }
   
-
+  
   void display(){
     billede = loadImage("fruit.png");
     billede.resize(growX, growY);

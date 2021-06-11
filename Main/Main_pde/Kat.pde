@@ -1,6 +1,6 @@
 class Kat extends Dyr{
   
-  PImage Billede;
+  PImage billede;
  
   float y = mouseY; 
   float x = mouseX; 
@@ -12,8 +12,8 @@ class Kat extends Dyr{
   
   
   void display(){
-    Billede = loadImage("catcoon.png");
-    image(Billede, x, y);
+    billede = loadImage("catcoon.png");
+    image(billede, x, y);
     x += speedX;
     y += speedY;
     

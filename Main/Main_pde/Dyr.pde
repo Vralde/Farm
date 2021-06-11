@@ -5,6 +5,7 @@ class Dyr extends Verden{
   
   boolean TurnX = false;
   boolean TurnY = false;
+  
   Dyr(){
    
   }

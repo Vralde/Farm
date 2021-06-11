@@ -6,8 +6,8 @@ class Bird extends Dyr{
   float x = mouseX; 
   
   Bird(int x_,int y_){
-  x = x_;
-  y = y_;
+    x = x_;
+    y = y_;
   }
   
   
@@ -18,23 +18,21 @@ class Bird extends Dyr{
     y -= speedY;
     
     if(x + 120 > width){
-     speedX = -speedX; 
+      speedX = -speedX; 
     }
 
     if(x < 0){
-     speedX = -speedX; 
+      speedX = -speedX; 
     }
 
     if(y + 120 > height){
-     speedY = -speedY; 
+      speedY = -speedY; 
     }
     
     if(y < 0){
-     speedY = -speedY; 
+      speedY = -speedY; 
     }    
     
-    
   }
-  
   
 }
