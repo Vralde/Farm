@@ -45,14 +45,28 @@ class Verden{
   void tegnAlleDyr(){
     for(Dyr d : listDyr){
       d.display();
-      println(listDyr.size());
+
    }
   }
   
   void tegnAlleTerrener(){
     for(Terren t : listTerrener){
       t.display();
-      println(listTerrener.size());
+
    }
   }
+  
+  
+  void collision(){
+    for(Terren t : listTerrener){
+      for(Dyr d : listDyr){
+        if(d.x > t.x && d.x < t.x + 83 && d.y > t.y && d.y < t.y + 49){
+          println("collision");
+          d.x = d.x - d.speedX * 0.5;
+          d.y = d.y - d.speedY * 0.5;
+        }
+      }
+    }
+  }
+  
 }

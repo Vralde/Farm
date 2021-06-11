@@ -26,8 +26,7 @@ class Kat extends Dyr{
     
     if(y < 0){
      speedY = -speedY; 
-    }    
-    
+    }
     
   }
 }

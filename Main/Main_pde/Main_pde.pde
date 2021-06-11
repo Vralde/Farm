@@ -9,10 +9,14 @@ void setup(){
 
 void draw(){
   clear();
-  background(255);
+  background(10, 200, 20);
   v.tegnAlleDyr();
   v.tegnAllePlanter();
   v.tegnAlleTerrener();
+  v.collision();
+
+
+
 
 }
   //Hver knap i buttonpressed skal kunne lave hvert deres dyr/plante/terren.
