@@ -1,9 +1,4 @@
 class Bird extends Dyr{
- 
-  PImage Billede;
- 
-  float y = mouseY; 
-  float x = mouseX; 
   
   Bird(int x_,int y_){
     x = x_;
@@ -12,8 +7,8 @@ class Bird extends Dyr{
   
   
   void display(){
-    Billede = loadImage("bird.png");
-    image(Billede, x, y);
+    billede = loadImage("bird.png");
+    image(billede, x, y);
     x -= speedX;
     y -= speedY;
     

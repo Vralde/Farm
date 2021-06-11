@@ -1,16 +1,16 @@
-class Kat extends Dyr{
-  
-  Kat(int x_, int y_){
-    x=x_;
-    y=y_;
+class Bird extends Dyr{
+ 
+  Bird(int x_,int y_){
+  x = x_;
+  y = y_;
   }
   
   
   void display(){
-    billede = loadImage("catcoon.png");
+    billede = loadImage("bird.png");
     image(billede, x, y);
-    x += speedX;
-    y += speedY;
+    x -= speedX;
+    y -= speedY;
     
     if(x + 120 > width){
      speedX = -speedX; 
@@ -30,4 +30,6 @@ class Kat extends Dyr{
     
     
   }
+  
+  
 }

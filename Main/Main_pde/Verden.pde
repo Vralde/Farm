@@ -1,11 +1,12 @@
 class Verden{
   
-  //int x, y;
-  
   ArrayList<Dyr> listDyr = new ArrayList<Dyr>();   
   ArrayList<Plante> listPlanter = new ArrayList<Plante>();
   ArrayList<Terren> listTerrener = new ArrayList<Terren>();
-  
+    
+  float y = mouseY; 
+  float x = mouseX; 
+  PImage billede;
   Verden(){
 
   }

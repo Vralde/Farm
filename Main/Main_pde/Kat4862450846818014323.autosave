@@ -9,9 +9,10 @@ class Kat extends Dyr{
   void display(){
     billede = loadImage("catcoon.png");
     image(billede, x, y);
+    
     x += speedX;
     y += speedY;
-    
+ 
     if(x + 120 > width){
      speedX = -speedX; 
     }
@@ -30,4 +31,5 @@ class Kat extends Dyr{
     
     
   }
+  
 }
