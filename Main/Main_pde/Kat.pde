@@ -11,7 +11,11 @@ class Kat extends Dyr{
     image(billede, x, y);
     x += speedX;
     y += speedY;
-    
+
+
+    //de følgende if statements, tjekker om dyret rammer en af skærmens vægge.
+    //hvis ja, så skal den modsætte sin speed ift om det var x eller y aksen den var
+    //på vej ud over.
     if(x + 120 > width){
      speedX = -speedX; 
     }

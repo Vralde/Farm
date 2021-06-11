@@ -19,23 +19,28 @@ void draw(){
 
 
 }
-  //Hver knap i buttonpressed skal kunne lave hvert deres dyr/plante/terren.
+//Hver knap i buttonpressed kan lave hver deres dyr/plante/terren.
 void keyPressed(){
  if(key == 'k'){
   v.lavKat();   
  }
+ 
  if(key == 'b'){
   v.lavBird();   
  }
+ 
   if(key == 'f'){
   v.lavFruit();   
  }
+ 
  if(key == 's'){
    v.lavSunflower();
  }
+ 
  if(key == 't'){
    v.lavTerren();
  }
+ 
 }
  
  
